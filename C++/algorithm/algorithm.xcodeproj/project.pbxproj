@@ -21,6 +21,7 @@
 		658E7D061E8C0224009A7651 /* CopyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 658E7D041E8C0224009A7651 /* CopyList.cpp */; };
 		65920E6E1E6D9E4B00321170 /* Print1ToMaxofNember.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65920E6C1E6D9E4B00321170 /* Print1ToMaxofNember.cpp */; };
 		659299651F585A5900F9F4C3 /* LCS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 659299631F585A5900F9F4C3 /* LCS.cpp */; };
+		65C2470922DB99B600B42A50 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65C2470722DB99B600B42A50 /* BubbleSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		65920E6D1E6D9E4B00321170 /* Print1ToMaxofNember.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Print1ToMaxofNember.hpp; sourceTree = "<group>"; };
 		659299631F585A5900F9F4C3 /* LCS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LCS.cpp; sourceTree = "<group>"; };
 		659299641F585A5900F9F4C3 /* LCS.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LCS.hpp; sourceTree = "<group>"; };
+		65C2470722DB99B600B42A50 /* BubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
+		65C2470822DB99B600B42A50 /* BubbleSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BubbleSort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 		6543B5811E6D9BBA0063057B /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				65C2470622DB998F00B42A50 /* Sort */,
 				6543B5B81E6D9C760063057B /* Manager.hpp */,
 				6543B5B91E6D9C760063057B /* Manager.mm */,
 				6543B5BA1E6D9C760063057B /* StrToInt.cpp */,
@@ -168,6 +172,15 @@
 				6543B5AC1E6D9BBA0063057B /* Info.plist */,
 			);
 			path = algorithmUITests;
+			sourceTree = "<group>";
+		};
+		65C2470622DB998F00B42A50 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				65C2470722DB99B600B42A50 /* BubbleSort.cpp */,
+				65C2470822DB99B600B42A50 /* BubbleSort.hpp */,
+			);
+			name = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +318,7 @@
 				6543B58A1E6D9BBA0063057B /* MasterViewController.m in Sources */,
 				6543B5841E6D9BBA0063057B /* main.m in Sources */,
 				6543B58D1E6D9BBA0063057B /* DetailViewController.m in Sources */,
+				65C2470922DB99B600B42A50 /* BubbleSort.cpp in Sources */,
 				658E7D061E8C0224009A7651 /* CopyList.cpp in Sources */,
 				65920E6E1E6D9E4B00321170 /* Print1ToMaxofNember.cpp in Sources */,
 				6543B5BD1E6D9C760063057B /* StrToInt.cpp in Sources */,

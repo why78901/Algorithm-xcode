@@ -23,7 +23,8 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
-    [[Manager shareInstance] Start];
+    [[Manager shareInstance] Sort];
+    [[Manager shareInstance] FlagSort];
     return YES;
 }
 

@@ -10,6 +10,7 @@
 #include "StrToInt.hpp"
 #include "Print1ToMaxofNember.hpp"
 #include "LCS.hpp"
+#include "BubbleSort.hpp"
 @implementation Manager
 +(Manager*)shareInstance
 {
@@ -37,5 +38,17 @@
 {
     print *pri = new print();
     pri->toMaxNumber(2);
+}
+
+-(void)Sort
+{
+    BubbleSort *bubble = new BubbleSort();
+    bubble->Sort();
+}
+
+-(void)FlagSort
+{
+    BubbleSort *bubble = new BubbleSort();
+    bubble->FlagSort();
 }
 @end

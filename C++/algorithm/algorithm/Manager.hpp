@@ -15,4 +15,6 @@
 -(void)StrToInt;
 -(void)Start;
 -(void)Print1ToMaxofNumber;
+-(void)Sort;
+-(void)FlagSort;
 @end
