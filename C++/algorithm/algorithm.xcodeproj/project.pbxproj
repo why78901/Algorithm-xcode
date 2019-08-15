@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65181B46230589660023D98E /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65181B44230589660023D98E /* HeapSort.cpp */; };
+		65181B4923058A280023D98E /* SortBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65181B4723058A280023D98E /* SortBase.cpp */; };
 		6543B5841E6D9BBA0063057B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543B5831E6D9BBA0063057B /* main.m */; };
 		6543B5871E6D9BBA0063057B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543B5861E6D9BBA0063057B /* AppDelegate.m */; };
 		6543B58A1E6D9BBA0063057B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543B5891E6D9BBA0063057B /* MasterViewController.m */; };
@@ -42,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65181B44230589660023D98E /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
+		65181B45230589660023D98E /* HeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeapSort.hpp; sourceTree = "<group>"; };
+		65181B4723058A280023D98E /* SortBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortBase.cpp; sourceTree = "<group>"; };
+		65181B4823058A280023D98E /* SortBase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortBase.hpp; sourceTree = "<group>"; };
 		6543B57F1E6D9BBA0063057B /* algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6543B5831E6D9BBA0063057B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6543B5851E6D9BBA0063057B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -179,6 +185,10 @@
 			children = (
 				65C2470722DB99B600B42A50 /* BubbleSort.cpp */,
 				65C2470822DB99B600B42A50 /* BubbleSort.hpp */,
+				65181B44230589660023D98E /* HeapSort.cpp */,
+				65181B45230589660023D98E /* HeapSort.hpp */,
+				65181B4723058A280023D98E /* SortBase.cpp */,
+				65181B4823058A280023D98E /* SortBase.hpp */,
 			);
 			name = Sort;
 			sourceTree = "<group>";
@@ -315,7 +325,9 @@
 			files = (
 				659299651F585A5900F9F4C3 /* LCS.cpp in Sources */,
 				6543B5871E6D9BBA0063057B /* AppDelegate.m in Sources */,
+				65181B46230589660023D98E /* HeapSort.cpp in Sources */,
 				6543B58A1E6D9BBA0063057B /* MasterViewController.m in Sources */,
+				65181B4923058A280023D98E /* SortBase.cpp in Sources */,
 				6543B5841E6D9BBA0063057B /* main.m in Sources */,
 				6543B58D1E6D9BBA0063057B /* DetailViewController.m in Sources */,
 				65C2470922DB99B600B42A50 /* BubbleSort.cpp in Sources */,

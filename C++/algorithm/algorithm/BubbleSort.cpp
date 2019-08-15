@@ -53,13 +53,14 @@ void BubbleSort::FlagSort(){
                 isSort = false;
             }
         }
-        if (isSort) {
+        if (isSort) { //如果isSort没有变化说明已经排好序了
             break;
         }
     }
     
+    printf("BubbleSort \n");
     for (i=0; i<len; i++) {
         printf("%d ",arr[i]);
     }
-    printf("%d \n",calNum);
+    printf("calNum%d \n",calNum);
 }

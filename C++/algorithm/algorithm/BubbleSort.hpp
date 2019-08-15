@@ -10,8 +10,10 @@
 #define BubbleSort_hpp
 
 #include <stdio.h>
+#include "SortBase.hpp"
 using namespace std;
-class BubbleSort{
+class BubbleSort
+{
 public:
     BubbleSort();
     void Sort();

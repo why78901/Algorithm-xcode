@@ -11,6 +11,7 @@
 #include "Print1ToMaxofNember.hpp"
 #include "LCS.hpp"
 #include "BubbleSort.hpp"
+#include "HeapSort.hpp"
 @implementation Manager
 +(Manager*)shareInstance
 {
@@ -42,8 +43,10 @@
 
 -(void)Sort
 {
-    BubbleSort *bubble = new BubbleSort();
-    bubble->Sort();
+//    BubbleSort *bubble = new BubbleSort();
+//    bubble->Sort();
+    HeadSort *head = new HeadSort();
+    head->Sort();
 }
 
 -(void)FlagSort
